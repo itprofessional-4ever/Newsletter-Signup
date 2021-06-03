@@ -38,7 +38,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "Chloe0403:1dc97b0a7b0a653026ab291aacf8396c-us6"
+        auth: "Chloe0403:932f08687fafa14967203be1b259eba9-us6"
     }
 
     const request = https.request(url, options, function (response) {
@@ -67,7 +67,7 @@ app.listen(3000, function () {
 });
 
 //API Key
-// 1dc97b0a7b0a653026ab291aacf8396c-us6
+// 932f08687fafa14967203be1b259eba9-us6
 
 //List Id
 // 16e3ffac94
